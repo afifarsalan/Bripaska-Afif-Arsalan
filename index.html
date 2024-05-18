@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Memory-here</title>
+    <link rel="stylesheet" href="Bripaska.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+</head>
+<body>
+
+    <div class="a">
+        <p> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+    <div class="aaaaa">
+        <p class="aaaab" data-aos="zoom-in-up">"Apa kalian ingat?"</p>
+        <p class="aaaab" data-aos="zoom-in-up">"Kita telah semua melalui ini"</p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="ss/1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="ss/2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="ss/3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="ss/6.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="sss/7.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="sss/8.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="sss/9.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="sss/10.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="sss/11.jpg" style="width:100%">
+        </div>
+        <div class="aaaag">
+    <div data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+            <pre class="aaaaf">t l i b p b s m</pre>
+            <pre class="aaaaf">i a n a e e a o</pre>
+            <pre class="aaaaf">d h g h r l n r</pre>
+            <pre class="aaaaf">a k a w n a d s</pre>
+            <pre class="aaaaf">k a t a a j i e</pre>
+            <pre class="aaaaf">  m   k h a   ?</pre>
+            <pre class="aaaaf">  u   i   r    </pre>
+            <pre class="aaaaf">      t        </pre> 
+            <pre class="aaaaf">      a        </pre>
+    </div>
+    </div>
+    <div class="aaaac" data-aos="zoom-in-right" data-aos-duration="2000">
+        <img class="aaaae" src="ss/sampul.png" ">
+        <div class="aaaad">
+            <h2>~selain itu~</h2>
+            <p>"kita pernah mencoba belajar PBB dan simpul tali saat latihan rutin berlangsung di hari jumat"</p>
+        </div>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1000" class="aaaai">
+        <h1 >...Namun...</h1>
+        <p>"Tak lama lagi kita kedatangan adik-adik kita yang baru""</p>
+    </div>
+    <div class="aaazz" data-aos="zoom-in-right" data-aos-duration="2000">
+        <p>"Jadi <u>saya harap kita</u> bisa <u>menampilkan hasil</u> yang <u>maksimal</u> pada <u>MPLS tahun ini</u>, dan di harapkan kehadirannya pada setiap kegiatan Pramuka"</p>
+    </div>
+    <div>
+        <img class="aaaat" src="ss/i.png" >
+    </div>
+    <div class="aaaaj">
+
+    </div>
+    <div class="aaaar">
+    <div  class="aaaac" data-aos="zoom-in-right" data-aos-duration="2000">
+            <img class="aaaae" src="ss/z.png" alt="apa maknanya?">
+            <div class="aaaad">
+                <h2>Akhir kata!</h2>
+                <p>"apakah gelas itu setengah terisi atau setengah kosong?"</p>
+                <p>"lalu... apa maknanya?"</p>
+        <p class="aaaam">Di buat oleh:Afif Arsalan X-Tr 16-18 Mei 2024.</p>
+        <p>~ Sekian terima kasih ~</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="bripaska.js"></script>
+    <script>
+        function closeVideo() {
+            document.getElementById('video-container').style.display = 'none';
+            document.getElementById('myVideo').pause();
+        }
+        window.onload = function() {
+            document.getElementById('video-container').style.display = 'block';
+        };
+
+        var backgroundColors = ["#1F2937", "#D1D5DB", "#EF4444", "#10B981"];
+        var textColors = ["#00ff77", "#00ff77", "#1F2937", "#D1D5DB", "#5700ba"];
+
+        // Fungsi untuk mendapatkan warna acak dari daftar
+        function getRandomColor(colors) {
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        // Fungsi untuk mengubah warna latar belakang dan teks setiap kali halaman dimuat ulang
+        function changeColorsOnReload() {
+            var backgroundColor = getRandomColor(backgroundColors);
+            var textColor = getRandomColor(textColors);
+
+            // Memastikan warna latar belakang dan teks tidak sama
+            while (backgroundColor === textColor) {
+                textColor = getRandomColor(textColors);
+            }
+
+            document.body.style.backgroundColor = backgroundColor;
+            document.body.style.color = textColor;
+        }
+
+        // Panggil fungsi saat halaman dimuat
+        window.onload = changeColorsOnReload;
+    </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+    </script>
+</body>
+</html>

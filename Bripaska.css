@@ -1,0 +1,156 @@
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    max-height: 481px;
+    min-height: 480px;
+  }
+  
+  .mySlides {
+    display: none; 
+}
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.aaaab {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: bottom;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.a {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 350px;
+  background-image: url(ss/pecahan\ kaca.png);
+}
+.a p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.a p span.typed-text {
+  font-weight: normal;
+  color: white;
+}
+.a p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.a p span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.aaaac {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 0px;
+  padding-bottom: 30px;;
+}
+.aaaar {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-image: url(ss/biru\ es.png);
+  background-size: cover;
+  max-height: 500px;
+}
+
+.aaaad {
+  margin-right: 10px;
+  padding-top: 220px;
+}
+
+.aaaae {
+  
+  width: 150px;
+  height: 150px;
+  padding-top: 220px;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.aaaaf {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: 900;
+  vertical-align: bottom;
+  font-family: "Courier New", monospace;
+  letter-spacing: 3px;
+
+}
+.aaaag {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(ss/b.png);
+  background-size: cover;
+  backface-visibility: visible;
+}
+
+.aaaai {
+  background-image: url(ss/burung.png);
+  background-size: cover;
+  backface-visibility: visible;
+    text-align: center;
+  padding-top: 80px;
+}
+
+.aaaat {
+  width: 100%;
+  max-width: auto;
+  max-height: 350px;
+  align-content: center;
+  padding-right: 0;
+  offset-distance: 10px;
+}
+
+.aaaam {
+  display: flex;
+  align-items: flex-end;
+  
+}
+.aaaaq {
+  text-align: center;
+  padding: 0px;
+}
+
+.aaazz {
+ text-align: center;
+}
